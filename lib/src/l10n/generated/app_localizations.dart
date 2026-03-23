@@ -185,6 +185,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Start learning vocabulary & grammar'**
   String get vocabSubtitle;
+
+  /// No description provided for @grammar.
+  ///
+  /// In en, this message translates to:
+  /// **'Grammar'**
+  String get grammar;
+
+  /// No description provided for @reading.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading'**
+  String get reading;
+
+  /// No description provided for @listening.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening'**
+  String get listening;
+
+  /// No description provided for @jlptLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'JLPT {level}'**
+  String jlptLevel(Object level);
 }
 
 class _AppLocalizationsDelegate

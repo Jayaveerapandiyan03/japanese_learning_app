@@ -20,5 +20,9 @@
   "loginTitle": "ඔබේ ගිණුමට ඇතුළු වන්න",
   "loginButton": "ඇතුළු වන්න",
   "vocabulary": "පද මාලාව",
-  "vocabSubtitle": "වචන මාලාව සහ ව්‍යාකරණ ඉගෙනීම ආරම්භ කරන්න"
+  "vocabSubtitle": "වචන මාලාව සහ ව්‍යාකරණ ඉගෙනීම ආරම්භ කරන්න",
+  "grammar": "ව්‍යාකරණ",
+  "reading": "කියවීම",
+  "listening": "සවන්දීම",
+  "jlptLevel": "JLPT {level}"
 }

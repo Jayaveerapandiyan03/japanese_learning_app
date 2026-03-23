@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:japanese_learning_app/src/presentation/screens/vocab_list_screen.dart';
+import 'package:japanese_learning_app/src/presentation/screens/level_category_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import '../../data/services/auth_service.dart';
 import '../../l10n/generated/app_localizations.dart';
@@ -108,7 +108,7 @@ class LevelSelectionScreen extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) =>
-                                VocabListScreen(level: levels[index]),
+                                LevelCategoryScreen(level: levels[index]),
                           ),
                         );
                       },

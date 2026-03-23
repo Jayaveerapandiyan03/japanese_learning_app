@@ -52,4 +52,18 @@ class AppLocalizationsTa extends AppLocalizations {
   @override
   String get vocabSubtitle =>
       'சொற்கள் மற்றும் இலக்கணத்தைக் கற்கத் தொடங்குங்கள்';
+
+  @override
+  String get grammar => 'இலக்கணம்';
+
+  @override
+  String get reading => 'வாசிப்பு';
+
+  @override
+  String get listening => 'கேட்டல்';
+
+  @override
+  String jlptLevel(Object level) {
+    return 'JLPT $level';
+  }
 }

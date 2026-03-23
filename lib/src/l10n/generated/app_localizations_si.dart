@@ -51,4 +51,18 @@ class AppLocalizationsSi extends AppLocalizations {
 
   @override
   String get vocabSubtitle => 'වචන මාලාව සහ ව්‍යාකරණ ඉගෙනීම ආරම්භ කරන්න';
+
+  @override
+  String get grammar => 'ව්‍යාකරණ';
+
+  @override
+  String get reading => 'කියවීම';
+
+  @override
+  String get listening => 'සවන්දීම';
+
+  @override
+  String jlptLevel(Object level) {
+    return 'JLPT $level';
+  }
 }

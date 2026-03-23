@@ -51,4 +51,18 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get vocabSubtitle => '単語と文法の学習を始める';
+
+  @override
+  String get grammar => '文法';
+
+  @override
+  String get reading => '読解';
+
+  @override
+  String get listening => '聴解';
+
+  @override
+  String jlptLevel(Object level) {
+    return 'JLPT $level';
+  }
 }

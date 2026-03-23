@@ -20,5 +20,9 @@
   "loginTitle": "Login to Your Account",
   "loginButton": "Login",
   "vocabulary": "Vocabulary",
-  "vocabSubtitle": "Start learning vocabulary & grammar"
+  "vocabSubtitle": "Start learning vocabulary & grammar",
+  "grammar": "Grammar",
+  "reading": "Reading",
+  "listening": "Listening",
+  "jlptLevel": "JLPT {level}"
 }
