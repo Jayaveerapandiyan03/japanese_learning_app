@@ -1,0 +1,7 @@
+{
+  "@@locale": "ja",
+  "appTitle": "日本語学校",
+  "startLearning": "学習を開始する",
+  "selectLevel": "JLPTレベルを選択してください",
+  "welcomeMessage": "ようこそ、{name}さん！"
+}

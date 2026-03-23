@@ -1,0 +1,7 @@
+arb-dir: lib/src/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+
+# This ensures they go into the sub-folder
+synthetic-package: false
+output-dir: lib/src/l10n/generated
