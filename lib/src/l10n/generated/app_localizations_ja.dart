@@ -21,4 +21,34 @@ class AppLocalizationsJa extends AppLocalizations {
   String welcomeMessage(String name) {
     return 'ようこそ、$nameさん！';
   }
+
+  @override
+  String get welcomeBack => 'おかえりなさい！';
+
+  @override
+  String get fullName => '氏名';
+
+  @override
+  String get email => 'メールアドレス';
+
+  @override
+  String get password => 'パスワード';
+
+  @override
+  String get alreadyHaveAccount => 'すでにアカウントをお持ちですか？こちらからログイン';
+
+  @override
+  String get dontHaveAccount => 'アカウントをお持ちでないですか？新規登録';
+
+  @override
+  String get loginTitle => 'アカウントにログイン';
+
+  @override
+  String get loginButton => 'ログイン';
+
+  @override
+  String get vocabulary => '単語';
+
+  @override
+  String get vocabSubtitle => '単語と文法の学習を始める';
 }

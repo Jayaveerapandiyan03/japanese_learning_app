@@ -7,7 +7,8 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_ja.dart';
-import 'app_localizations_my.dart';
+import 'app_localizations_si.dart';
+import 'app_localizations_ta.dart';
 
 // ignore_for_file: type=lint
 
@@ -97,32 +98,93 @@ abstract class AppLocalizations {
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('ja'),
-    Locale('my'),
+    Locale('si'),
+    Locale('ta'),
   ];
 
-  /// The name of the application
+  /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
   /// **'Nihongo School'**
   String get appTitle;
 
-  /// Button text to begin a lesson
+  /// No description provided for @startLearning.
   ///
   /// In en, this message translates to:
   /// **'Start Learning'**
   String get startLearning;
 
-  /// Title for the level selection screen
+  /// No description provided for @selectLevel.
   ///
   /// In en, this message translates to:
   /// **'Select JLPT Level'**
   String get selectLevel;
 
-  /// A greeting message for the user
+  /// No description provided for @welcomeMessage.
   ///
   /// In en, this message translates to:
   /// **'Welcome, {name}!'**
   String welcomeMessage(String name);
+
+  /// No description provided for @welcomeBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back!'**
+  String get welcomeBack;
+
+  /// No description provided for @fullName.
+  ///
+  /// In en, this message translates to:
+  /// **'Full Name'**
+  String get fullName;
+
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// No description provided for @alreadyHaveAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account? Login here'**
+  String get alreadyHaveAccount;
+
+  /// No description provided for @dontHaveAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account? Sign up here'**
+  String get dontHaveAccount;
+
+  /// No description provided for @loginTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Login to Your Account'**
+  String get loginTitle;
+
+  /// No description provided for @loginButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get loginButton;
+
+  /// No description provided for @vocabulary.
+  ///
+  /// In en, this message translates to:
+  /// **'Vocabulary'**
+  String get vocabulary;
+
+  /// No description provided for @vocabSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start learning vocabulary & grammar'**
+  String get vocabSubtitle;
 }
 
 class _AppLocalizationsDelegate
@@ -136,7 +198,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'ja', 'my'].contains(locale.languageCode);
+      <String>['en', 'ja', 'si', 'ta'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -149,8 +211,10 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsEn();
     case 'ja':
       return AppLocalizationsJa();
-    case 'my':
-      return AppLocalizationsMy();
+    case 'si':
+      return AppLocalizationsSi();
+    case 'ta':
+      return AppLocalizationsTa();
   }
 
   throw FlutterError(

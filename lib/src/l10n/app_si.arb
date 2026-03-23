@@ -1,0 +1,24 @@
+{
+  "@@locale": "si",
+  "appTitle": "නිහොන්ගෝ පාසල",
+  "startLearning": "ඉගෙනීම ආරම්භ කරන්න",
+  "selectLevel": "ඔබේ JLPT මට්ටම තෝරන්න",
+  "welcomeMessage": "සාදරයෙන් පිළිගනිමු, {name}!",
+  "@welcomeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeBack": "නැවත සාදරයෙන් පිළිගනිමු!",
+  "fullName": "සම්පූර්ණ නම",
+  "email": "විද්‍යුත් තැපෑල",
+  "password": "මුරපදය",
+  "alreadyHaveAccount": "දැනටමත් ගිණුමක් තිබේද? මෙතැනින් ඇතුළු වන්න",
+  "dontHaveAccount": "ගිණුමක් නැද්ද? මෙතනින් ලියාපදිංචි වන්න",
+  "loginTitle": "ඔබේ ගිණුමට ඇතුළු වන්න",
+  "loginButton": "ඇතුළු වන්න",
+  "vocabulary": "පද මාලාව",
+  "vocabSubtitle": "වචන මාලාව සහ ව්‍යාකරණ ඉගෙනීම ආරම්භ කරන්න"
+}

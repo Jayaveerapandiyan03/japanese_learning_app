@@ -21,4 +21,34 @@ class AppLocalizationsEn extends AppLocalizations {
   String welcomeMessage(String name) {
     return 'Welcome, $name!';
   }
+
+  @override
+  String get welcomeBack => 'Welcome back!';
+
+  @override
+  String get fullName => 'Full Name';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get alreadyHaveAccount => 'Already have an account? Login here';
+
+  @override
+  String get dontHaveAccount => 'Don\'t have an account? Sign up here';
+
+  @override
+  String get loginTitle => 'Login to Your Account';
+
+  @override
+  String get loginButton => 'Login';
+
+  @override
+  String get vocabulary => 'Vocabulary';
+
+  @override
+  String get vocabSubtitle => 'Start learning vocabulary & grammar';
 }

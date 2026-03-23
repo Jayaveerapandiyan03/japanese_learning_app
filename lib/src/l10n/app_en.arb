@@ -1,25 +1,24 @@
 {
   "@@locale": "en",
   "appTitle": "Nihongo School",
-  "@appTitle": {
-    "description": "The name of the application"
-  },
   "startLearning": "Start Learning",
-  "@startLearning": {
-    "description": "Button text to begin a lesson"
-  },
   "selectLevel": "Select JLPT Level",
-  "@selectLevel": {
-    "description": "Title for the level selection screen"
-  },
   "welcomeMessage": "Welcome, {name}!",
   "@welcomeMessage": {
-    "description": "A greeting message for the user",
     "placeholders": {
       "name": {
-        "type": "String",
-        "example": "Jay"
+        "type": "String"
       }
     }
-  }
+  },
+  "welcomeBack": "Welcome back!",
+  "fullName": "Full Name",
+  "email": "Email",
+  "password": "Password",
+  "alreadyHaveAccount": "Already have an account? Login here",
+  "dontHaveAccount": "Don't have an account? Sign up here",
+  "loginTitle": "Login to Your Account",
+  "loginButton": "Login",
+  "vocabulary": "Vocabulary",
+  "vocabSubtitle": "Start learning vocabulary & grammar"
 }

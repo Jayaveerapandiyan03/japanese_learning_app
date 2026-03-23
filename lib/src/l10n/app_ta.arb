@@ -1,0 +1,24 @@
+{
+  "@@locale": "ta",
+  "appTitle": "நிஹோங்கோ பள்ளி",
+  "startLearning": "கற்றலைத் தொடங்குங்கள்",
+  "selectLevel": "உங்கள் JLPT நிலையைத் தேர்ந்தெடுக்கவும்",
+  "welcomeMessage": "வரவேற்கிறோம், {name}!",
+  "@welcomeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeBack": "மீண்டும் வருக!",
+  "fullName": "முழு பெயர்",
+  "email": "மின்னஞ்சல்",
+  "password": "கடவுச்சொல்",
+  "alreadyHaveAccount": "ஏற்கனவே கணக்கு உள்ளதா? இங்கே உள்நுழையவும்",
+  "dontHaveAccount": "கணக்கு இல்லையா? இங்கே பதிவு செய்யவும்",
+  "loginTitle": "உங்கள் கணக்கில் உள்நுழையவும்",
+  "loginButton": "உள்நுழைக",
+  "vocabulary": "சொற்களஞ்சியம்",
+  "vocabSubtitle": "சொற்கள் மற்றும் இலக்கணத்தைக் கற்கத் தொடங்குங்கள்"
+}

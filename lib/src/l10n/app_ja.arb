@@ -3,5 +3,22 @@
   "appTitle": "日本語学校",
   "startLearning": "学習を開始する",
   "selectLevel": "JLPTレベルを選択してください",
-  "welcomeMessage": "ようこそ、{name}さん！"
+  "welcomeMessage": "ようこそ、{name}さん！",
+  "@welcomeMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "fullName": "氏名",
+  "email": "メールアドレス",
+  "password": "パスワード",
+  "alreadyHaveAccount": "すでにアカウントをお持ちですか？こちらからログイン",
+  "dontHaveAccount": "アカウントをお持ちでないですか？新規登録",
+  "loginTitle": "アカウントにログイン",
+  "loginButton": "ログイン",
+  "welcomeBack": "おかえりなさい！",
+  "vocabulary": "単語",
+  "vocabSubtitle": "単語と文法の学習を始める"
 }
