@@ -182,7 +182,7 @@ class VocabListScreen extends StatelessWidget {
             Row(
               children: [
                 CircleAvatar(
-                  backgroundColor: Colors.purple.withOpacity(0.1),
+                backgroundColor: Colors.purple.withValues(alpha: 0.1),
                   child: const Icon(Icons.headset, color: Colors.purple),
                 ),
                 const SizedBox(width: 12),
